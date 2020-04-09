@@ -1,0 +1,43 @@
+*{
+	color: white;
+}
+.med{
+	border: 2px solid red;
+		color: white;
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(thumb.jpg);
+	text-decoration: line-through red;
+	background-size: cover;
+}
+body{
+	background-color: black;
+}
+b{
+	color: red;
+}
+.m22{
+	text-align: center;
+	margin-top: 100px;
+}
+.m21{
+	text-align: right;
+}
+p{
+	color: white;
+	font-family: Arial;
+	line-height: 30px;
+	text-align: center;
+}
+.m23{
+		border: 2px solid red;
+		color: white;
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(48944902_1949134158535741_2613351827109838848_n.jpg);
+	text-decoration: line-through red;
+	background-size: cover;
+
+}

@@ -1,0 +1,128 @@
+
+h1{
+	/*border: 2px  solid #00004d ;*/
+	/*width: 500px;*/
+	/*border-right: 2px solid #00004d;*/
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 3em;
+	color:black;
+	text-align: center;
+	margin-top: 100px;
+}
+h2{
+	color: black;
+	font-family: harrington;
+	font-size: 300%;
+	/*text-decoration: line-through red;*/
+	text-align: center;
+
+}
+h3{
+	color: red;
+}
+body{
+
+	background-color:#e6e6ff;
+}
+img{
+	width: 200px;
+	height:200px;
+	transition: 1s;
+
+}
+img:hover{
+	transform: scale(1.2);
+}
+.rap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+}
+.menu-bar{
+	background-color:  #00004d;
+	text-align: center;
+	position: relative;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 5px;
+	padding: 5px;
+}
+ a{
+	text-decoration: none;
+	color: white;
+}
+.menu-bar ul li:hover{
+	background-color:  #b3b3ff;
+	border-radius: 3px;
+
+}
+
+.menu-bar .fa{
+	margin-right: 8px; 
+
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+	display: block;
+	position: absolute;
+	background: #00004d;
+	margin-top: 5px;
+	margin-left: -8px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 15px;
+	padding: 0px;
+	width: 100px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width: 150px;
+	padding: 10px;
+	background:transparent;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	border-bottom: 2px solid white;
+}
+.fa-angle-down{
+	float:  right;
+}
+.sub-menu-2{
+	display: none;
+}
+.menu-bar .sub-menu-1 ul li:hover .sub-menu-2 {
+	display: block;
+	position: absolute;
+	background: #00004d;
+	margin-top: 2px;
+	margin-left: 100px;
+}
+.menu-bar .sub-menu-1  ul li:hover .sub-menu-2 ul{
+	display: block;
+	margin: 15px;
+	padding: 0px;
+	width: 100px;
+}
+
+.menu-bar .sub-menu-1 ul li:hover .sub-menu-2 ul li {
+	width: 150px;
+	padding: 10px;
+	background:transparent;
+	text-align: left;
+}
+
+.menu-bar .sub-menu-1 ul li:hover .sub-menu-2 ul li a:hover{
+	border-bottom: 2px solid white;
+}

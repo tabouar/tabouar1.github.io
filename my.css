@@ -1,0 +1,32 @@
+*{
+	text-align: right;
+}
+h2{
+	text-align: center;
+	display: inline-block;
+	color: white;
+
+}
+h2:after{
+	content: " | ";
+	color: red;
+}
+h1{
+	color: white;
+	border: 2px solid red;
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(eminem-my-name-is.jpg);
+	background-size: cover;
+	text-decoration: line-through red;
+}
+p{
+	font-family: Arial;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+body{
+	background-color: black;
+}

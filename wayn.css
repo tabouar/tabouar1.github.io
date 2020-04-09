@@ -1,0 +1,57 @@
+body{
+	background-color: black	;
+}
+*{
+	color: white;
+}
+.m21{
+	text-align: right;
+}
+.m22{
+	text-align: center;
+	margin-top: 100px;
+}
+.med{
+	border: 2px solid	red;
+	color: white;
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(lilwayne.jpg);
+	background-size: cover;
+	text-decoration: line-through red;
+}
+.m23{
+	margin-top: 100px;
+	border: 2px solid red;
+	color: white;
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(GettyImages-12069442061-1024x683.jpg);
+	background-size: cover;
+	text-decoration: line-through red;
+	margin-top: 100px;
+}
+#id1{
+	border: 2px solid black;
+	margin: 10px;
+	width: 300px;
+	display: inline-block;
+}
+#id2{
+	border: 2px solid black;
+	margin: 10px;
+	width: 300px;
+	display: inline-block;
+		}
+#id3{
+	border: 2px solid black;
+	margin: 10px;
+	width: 300px;
+	display: inline-block;
+}
+.m24{
+	text-align: center;
+
+}

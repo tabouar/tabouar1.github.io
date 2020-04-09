@@ -1,0 +1,34 @@
+*{
+	text-align: right;
+}
+p{
+color: white;
+	font-family: Arial;
+	line-height: 30px;
+	text-align: center;
+
+}
+h1{
+	color: white;
+	border: 2px solid red;
+	/*background-color: red;*/
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(eminem-clip-godzilla.jpg);
+	background-size: cover;
+	text-decoration: line-through red;
+}
+body{
+	background-color: black;
+}
+h2{
+	display: inline-block;
+	color: white;
+
+}
+h2:after{
+	content: " | " ;
+	color:red;
+ }
+

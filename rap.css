@@ -1,0 +1,32 @@
+*{
+	text-align: right;
+}
+h2{
+	text-align: right;
+	display: inline-block;
+	color: white;
+
+}
+h2:after{
+	content: " | ";
+	color: red;
+}
+p{
+	font-family: Arial;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+h1{
+	color: white;
+	border: 2px solid red;
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(god.jpg);
+	background-size: cover;
+	text-decoration: line-through red;
+}
+body{
+	background-color: black;
+}

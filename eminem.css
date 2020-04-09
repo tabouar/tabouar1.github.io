@@ -1,0 +1,78 @@
+p{
+	color: white;
+	font-family: Arial;
+	line-height: 30px;
+	text-align: center;
+}
+.med{
+	color: white;
+	border: 2px solid red;
+	/*background-color: red;*/
+	padding: 200px;
+	margin:30px;
+	text-align: center;
+	background-image: url(back.png);
+	text-decoration: line-through red;
+}
+.m22{
+	color: white;
+	text-align: center;
+	border: solid 2px black;
+	margin-top: 70px;
+
+}
+body{
+	background-color: black;
+	padding: 2px;
+}
+b{
+	color: red;
+	font-size: 200%;
+	border-bottom: 2px solid red;
+}
+.m21{
+	text-align: right;
+	color: red;
+
+}
+.m23{
+	color: white;
+	text-align: center;
+	border: 2px solid red;
+	margin: 30px;
+	padding: 200px;
+	background-image: url(song1.jpg);
+	text-decoration: line-through red;
+
+}
+#id1{
+	color: red;
+	border: solid 2px black;
+	width: 300px;
+	margin:20px;
+	display:inline-block;
+
+}
+#id2{
+	color: red;
+	border: solid 2px black;
+	width: 300px;
+	margin:20px;
+	display:inline-block;
+	justify-content: space-around;
+}
+#id3{
+	color: red;
+	border: solid 2px black;
+	width: 300px;
+	margin:20px;
+	display:inline-block;
+	justify-content: space-around;
+
+}
+.m24{
+	text-align: center;
+}
+*{
+	color: white;
+}
